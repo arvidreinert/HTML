@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<style>
+  .sidebar {
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    border-right: 2px solid rgb(194, 193, 193);
+    border-top: 2px solid rgb(194, 193, 193);
+    margin-top: 0px;
+  }
+  .maincontent {
+    width: 85%;
+    margin-top: 0px;
+  }
+</style>
+
+<html>
+<body style="background-color: black;">
+  <h1 style="background-color: black; color: rgb(0, 210, 42); font-size: 24px; font-family: 'Courier New', Courier, monospace; text-align: center; border-bottom: 2px solid black; margin-bottom: 7px; margin-top: 7px;">Arvid Reinert</h1>
+  <div style="display: flex; flex-direction: row;">
+    <div class="sidebar">
+      <p style="color: rgb(194, 193, 193); font-size: 18px; font-family: 'Courier New', Courier, monospace;">
+      My social's:
+      </p>
+      <br>
+      <a href="https://arvidreinert.itch.io/"; target="_blank"; style="color: rgb(31, 130, 222);"> Itch.io</a>
+      <a href="https://github.com/arvidreinert"; target="_blank"; style="color: rgb(31, 130, 222);"> Github</a>
+    </div>
+
+    <!--main informations-->
+    <div class="maincontent"; style="border-top: 2px solid rgb(194, 193, 193);">
+      <h2 style="background-color: black; color: rgb(0, 210, 42); font-size: 20px; font-family: 'Courier New', Courier, monospace; text-align: center; border-bottom: 2px solid black; margin-bottom: 7px; margin-top: 7px;">About me:</h2>
+      <p style="margin-left: 5px; color: rgb(0, 210, 42); font-size: 16px; font-family: 'Courier New', Courier, monospace;">
+      Hi, my name is Arvid Reinert. I live in switzerland and was born in 2009. 
+      My hobby is coding small projects in my free time. All my contacts and social media are in the 
+      sidebar on the left. <br> <br>
+      </p>
+      <h2 style="background-color: black; color: rgb(0, 210, 42); font-size: 20px; font-family: 'Courier New', Courier, monospace; text-align: center; border-bottom: 2px solid black; margin-bottom: 7px; margin-top: 7px;">My Projects:</h2>
+      <p style="margin-left: 5px; color: rgb(0, 210, 42); font-size: 16px; font-family: 'Courier New', Courier, monospace;">
+      Here you can look at a selection of my favorite projects I have coded. 
+      If you wish to see more, you can take a look at my Github.<br>
+      </p>
+      <h5 style="background-color: black; color: rgb(0, 210, 42); font-size: 18px; font-family: 'Courier New', Courier, monospace; text-align: center; border-bottom: 2px solid black; margin-bottom: 7px; margin-top: 7px;">My own processor</h5>
+      <p style="margin-left: 5px; color: rgb(0, 210, 42); font-size: 16px; font-family: 'Courier New', Courier, monospace;">
+      This project was all about learning how to use FPGA's and write verilog HDL code. 
+      Here you can read the description I copied from 
+      <a href="https://arvidreinert.itch.io/my-own-processor"; target="_blank"; style="color: rgb(31, 130, 222);"> Itch.io:</a>
+      <br>I was interested in how processors and chips are made so I attended a chip design course (tiny tapeout) and 
+      then fell in a very deep hole of FPGA's and micro processors. It was only logical to design my own using verilog, 
+      making it programmable and testing it on an FPGA board (NandLand GoBoard). After that was done I wanted to add an assembler 
+      language and a compiler/simulator for testing  my assembler code and compiling it to binary to load it on the FPGA. 
+      I named my procesor Frozen1 and my assembler language Freeze here's a sample of it: <img src="Screenshot 2025-11-09 203748.png" alt="//simulate;@000;test1 = 3;memwrite [0, 1];memwrite [1,5];add [0,1];memwrite [2, {test1}];sub [1,2];syswrite [0,0];syswrite [1,1];end;" style="display: block;">
+      In the second screenshot you can see all the commands. Here's how you can code it in binary:
+      <img src="Screenshot 2025-11-09 211203.png" alt="">
+      </p>
+    </div>
+  </div>
+</body>
+</html>
