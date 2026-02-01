@@ -12,6 +12,14 @@
     width: 85%;
     margin-top: 0px;
   }
+  button {
+    width: 60px;
+    height: 60px;
+    font-size: 32px;
+    margin: 4px;
+    align-items: center;
+    justify-content: center;
+  }
 </style>
 
 <html>
@@ -36,6 +44,7 @@
       <a href="#StockDuck"; style="color: rgb(31, 130, 222); font-size: 14; margin-left: 7px;">StockDuck</a>
       <a href="#VERY(UN)safechat"; style="color: rgb(31, 130, 222); font-size: 14; margin-left: 7px;">VERY (UN)safe chat</a>
       <a href="#AsciiVideo(s)"; style="color: rgb(31, 130, 222); font-size: 14; margin-left: 7px;">Ascii Video(s)</a>
+      <a href="#TicTacToe"; style="color: rgb(31, 130, 222); font-size: 14; margin-left: 7px;">Tic Tac Toe</a>
     </div>
 
     <!--main informations-->
@@ -97,8 +106,38 @@
       <a href="https://arvidreinert.itch.io/ascii-videos"; target="_blank"; style="color: rgb(31, 130, 222);"> Itch.io:</a>
       <br>Ever wondered what a video would look like in ASCII art? With this project, you can finally find out! 
       Just run the Python script and enter the file path of the video you want to watch — it's that simple. (There is also a file for images.)(To download the files visit the itch.io page.) <br><div style="display: flex; flex-direction: row;"><img src="Screenshot 2025-11-10 202928.png" alt="some text" style="display: block; width: 50vh;"><img src="Screenshot 2025-11-10 205952.png" alt="some text" style="display: block; width: 50vh;"><img src="Screenshot 2025-11-10 205723.png" alt="some text" style="display: block; width: 50vh;"></div>
-      </p>
+      </p><br><br>
       
+      <h5 id="TicTacToe" style="background-color: black; color: rgb(0, 210, 42); font-size: 18px; font-family: 'Courier New', Courier, monospace; text-align: center; border-bottom: 2px solid black; margin-bottom: 7px; margin-top: 7px;">Javascript Tic Tac Toe</h5>
+      <p style="margin-left: 5px; color: rgb(0, 210, 42); font-size: 16px; font-family: 'Courier New', Courier, monospace;">
+      This was my first time working with Javascript. For this reason I thought I would make something
+      pretty simple: a version of Tic Tac Toe:
+      <div>
+        <p style="display: flex; flex-direction: row;" id="row1">
+        <button id="b1"></button>
+        <button id="b2"></button>
+        <button id="b3"></button>
+        </p>
+        <p style="display: flex; flex-direction: row;" id="row2">
+        <button id="b4"></button>
+        <button id="b5"></button>
+        <button id="b6"></button>
+        </p>
+        <p style="display: flex; flex-direction: row;" id="row3">
+        <button id="b7"></button>
+        <button id="b8"></button>
+        <button id="b9"></button>
+        </p>
+        <p id="status" style="font-size: 28px; color: rgb(0, 210, 42); font-size: 28px; font-family: 'Courier New', Courier, monospace;"">Welcome</p>
+        <p style="display: flex; flex-direction: row;" id="resetpar">
+        <button id="reset" style="font-size: 16px; margin-left: 6vw;">reset</button>
+        </p>
+        <pre>
+        <script src="program.js"></script>
+        </pre>
+      </div>
+      </p>
+
     </div>
   </div>
 </body>
